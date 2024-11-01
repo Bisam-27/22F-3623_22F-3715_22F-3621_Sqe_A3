@@ -8,8 +8,8 @@ public class MemberTest {
     @DataProvider(name = "memberData")
     public Object[][] memberData() {
         return new Object[][] {
-            { "1", "Bisam" },
-            { "2", "Haseeb" }
+            { "M001", "Alice" },
+            { "M002", "Bob" }
         };
     }
 
