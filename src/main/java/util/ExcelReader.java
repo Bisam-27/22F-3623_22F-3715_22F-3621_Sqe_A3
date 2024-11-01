@@ -46,7 +46,6 @@ public class ExcelReader {
         Workbook workbook = new XSSFWorkbook();
         Sheet sheet = workbook.createSheet("Test Results");
 
-        // Writing the header
         Row header = sheet.createRow(0);
         header.createCell(0).setCellValue("Test Case ID");
         header.createCell(1).setCellValue("Function/Class");
@@ -57,7 +56,6 @@ public class ExcelReader {
         header.createCell(6).setCellValue("Status");
         header.createCell(7).setCellValue("Remarks");
 
-        // Writing results
         for (int i = 0; i < results.size(); i++) {
             String[] result = results.get(i);
             Row row = sheet.createRow(i + 1);
@@ -66,7 +64,6 @@ public class ExcelReader {
             }
         }
 
-        // Write the output to file
         try (FileOutputStream fos = new FileOutputStream(filePath)) {
             workbook.write(fos);
         }
