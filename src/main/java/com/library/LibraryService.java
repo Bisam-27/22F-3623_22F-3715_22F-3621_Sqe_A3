@@ -41,24 +41,24 @@ public class LibraryService {
             book.borrowBook();
             return true;
         }
-        return false; // Return false if book not available
+        return false; 
     }
 
     public boolean returnBook(String title) {
         Book book = getBook(title);
         if (book != null) {
             book.returnBook();
-            return true; // Return true if the book was successfully returned
+            return true; 
         }
-        return false; // Return false if the book was not found
+        return false; 
     }
 
     public int getTotalBooks() {
-        return books.size(); // Return the total number of books
+        return books.size(); 
     }
 
     public int getTotalMembers() {
-        return members.size(); // Return the total number of members
+        return members.size(); 
     }
 
     public boolean isBookAvailable(String title) {
