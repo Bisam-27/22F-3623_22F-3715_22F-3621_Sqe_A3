@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-01T15:52:19 PKT" name="LibraryManagementTestSuite" finished-at="2024-11-01T15:52:22 PKT" duration-ms="2126">
+    <groups>
+    </groups>
+    <test started-at="2024-11-01T15:52:19 PKT" name="BookTests" finished-at="2024-11-01T15:52:20 PKT" duration-ms="126">
+      <class name="com.library.BookTest">
+        <test-method signature="testBookCreation(java.lang.String,java.lang.String)[pri:0, instance:com.library.BookTest@359f7cdf]" started-at="2024-11-01T15:52:19 PKT" name="testBookCreation" data-provider="bookData" finished-at="2024-11-01T15:52:19 PKT" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Great Gatsby]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[F. Scott Fitzgerald]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookCreation -->
+        <test-method signature="testReturnBook()[pri:0, instance:com.library.BookTest@359f7cdf]" started-at="2024-11-01T15:52:19 PKT" name="testReturnBook" finished-at="2024-11-01T15:52:19 PKT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReturnBook -->
+        <test-method signature="testBorrowBook()[pri:0, instance:com.library.BookTest@359f7cdf]" started-at="2024-11-01T15:52:19 PKT" name="testBorrowBook" finished-at="2024-11-01T15:52:19 PKT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBorrowBook -->
+        <test-method signature="testBookCreation(java.lang.String,java.lang.String)[pri:0, instance:com.library.BookTest@359f7cdf]" started-at="2024-11-01T15:52:19 PKT" name="testBookCreation" data-provider="bookData" finished-at="2024-11-01T15:52:19 PKT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1984]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[George Orwell]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBookCreation -->
+      </class> <!-- com.library.BookTest -->
+    </test> <!-- BookTests -->
+    <test started-at="2024-11-01T15:52:20 PKT" name="MemberTests" finished-at="2024-11-01T15:52:20 PKT" duration-ms="30">
+      <class name="com.library.MemberTest">
+        <test-method signature="testMemberCreation(java.lang.String,java.lang.String)[pri:0, instance:com.library.MemberTest@409bf450]" started-at="2024-11-01T15:52:20 PKT" name="testMemberCreation" data-provider="memberData" finished-at="2024-11-01T15:52:20 PKT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberCreation -->
+        <test-method signature="testMemberCreation(java.lang.String,java.lang.String)[pri:0, instance:com.library.MemberTest@409bf450]" started-at="2024-11-01T15:52:20 PKT" name="testMemberCreation" data-provider="memberData" finished-at="2024-11-01T15:52:20 PKT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bob]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMemberCreation -->
+      </class> <!-- com.library.MemberTest -->
+    </test> <!-- MemberTests -->
+    <test started-at="2024-11-01T15:52:20 PKT" name="LibraryAppTests" finished-at="2024-11-01T15:52:22 PKT" duration-ms="1810">
+      <class name="com.library.LibraryAppTest">
+        <test-method signature="testLibraryService()[pri:0, instance:com.library.LibraryAppTest@18078bef]" started-at="2024-11-01T15:52:20 PKT" name="testLibraryService" finished-at="2024-11-01T15:52:21 PKT" duration-ms="1801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLibraryService -->
+      </class> <!-- com.library.LibraryAppTest -->
+    </test> <!-- LibraryAppTests -->
+  </suite> <!-- LibraryManagementTestSuite -->
+</testng-results>

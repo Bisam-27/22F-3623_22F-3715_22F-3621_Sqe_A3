@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LibraryManagementTestSuite" parallel="true">
+    <test name="BookTests">
+        <classes>
+            <class name="com.library.BookTest"/>
+        </classes>
+    </test>
+    <test name="MemberTests">
+        <classes>
+            <class name="com.library.MemberTest"/>
+        </classes>
+    </test>
+    <test name="LibraryAppTests">
+        <classes>
+            <class name="com.library.LibraryAppTest"/>
+        </classes>
+    </test>
+</suite>
